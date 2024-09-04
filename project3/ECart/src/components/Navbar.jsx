@@ -5,6 +5,7 @@ import { BsFillCartCheckFill } from 'react-icons/bs';
 
 
 
+
 const Navbar = ({setData,cart}) => {
   // console.log(useLocation())
   const location = useLocation()
@@ -51,6 +52,7 @@ const Navbar = ({setData,cart}) => {
             <Link to={'/cart'} className="cart">
             <button type="button" className="btn btn-primary position-relative">
   <BsFillCartCheckFill style={{fontSize:'1.5rem'}} />
+      {/* CART ICON   */}
   <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
     {cart.length}
     <span className="visually-hidden">unread messages</span>
