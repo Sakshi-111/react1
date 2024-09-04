@@ -80,3 +80,19 @@ input::placeholder{
 background-color: aliceblue;
 color: #4b1b78;
 }
+.transitions{
+  background: linear-gradient(300deg,deepskyblue,#4d9796,#673691);
+  background-size: 180% 180%;
+  animation: transitions 5s ease infinite;
+}
+@keyframes transitions{
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

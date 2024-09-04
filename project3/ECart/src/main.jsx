@@ -4,6 +4,11 @@ import App from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+ <div className='transitions'>
+<App />
+ </div>
+  
  
-    <App />
+   
+
 )
