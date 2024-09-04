@@ -62,3 +62,21 @@ input::placeholder{
   align-items: center;
   gap:4rem
 }
+.btn{
+  font-size:2 rem;
+  font-weight:700;
+  padding: 1rem;
+  color:var(--clr-accent);
+  background-color:cadetblue;
+  border:#4b1b78;
+  cursor:pointer;
+
+
+}
+.btn:hover{
+  transform:translateY(-10px);
+}
+.items:hover{
+background-color: aliceblue;
+color: #4b1b78;
+}

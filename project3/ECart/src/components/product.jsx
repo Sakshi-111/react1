@@ -70,7 +70,7 @@ const Product = ({ items, cart, setCart }) => {
                       <button className="btn btn-primary mx-3">
                         ₹ {product.price}
                       </button>
-                      <button
+                      <button  
                         onClick={() =>
                           addToCart(
                             product.id,
@@ -80,7 +80,7 @@ const Product = ({ items, cart, setCart }) => {
                             product.imgSrc
                           )
                         }
-                        className="btn btn-warning"
+                        className="btn"
                       >
                         Add To Cart
                       </button>
