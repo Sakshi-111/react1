@@ -81,7 +81,7 @@ background-color: aliceblue;
 color: #4b1b78;
 }
 .transitions{
-  background: linear-gradient(300deg,deepskyblue,#4d9796,#673691);
+  background: linear-gradient(300deg,rgb(138, 206, 240),#a57ade,#eaf36e);
   background-size: 180% 180%;
   animation: transitions 5s ease infinite;
 }
