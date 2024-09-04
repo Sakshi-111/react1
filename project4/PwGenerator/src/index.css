@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+#copyid{
+  background-color: blueviolet;
+}
+#copyid:hover{
+  background-color: rgb(170, 186, 235);
+  color:blueviolet;
+  font-style: italic;
+}
