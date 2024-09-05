@@ -9,8 +9,8 @@ function Input({
     onCurrencyChange,
     currencyoptions=[],
     selectCurrency='usd',
-    amountDisable='false',
-    currencydisabled='false',
+    amountDisable=false,
+    currencydisabled=false,
     
     className = "",
 }) {
